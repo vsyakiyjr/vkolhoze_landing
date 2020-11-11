@@ -269,14 +269,14 @@ h2 {
 .footer {
   border-top: 1px solid #f6f6f6; }
   .footer .footer-wrapper {
-    padding: 40px 0px 60px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
+    padding: 40px 0px 60px 0px; }
     .footer .footer-wrapper a:first-child {
       margin-left: 0; }
-    .footer .footer-wrapper a {
-      margin-left: 24px; }
+    .footer .footer-wrapper img:last-child {
+      display: block;
+      margin: 0 auto; }
+    .footer .footer-wrapper .rsl {
+      margin-top: 25px !important; }
 
 .abuse h4 {
   font-size: 14px;
@@ -368,6 +368,14 @@ h2 {
 .phone .phone-wrapper .phone-offer {
   position: relative;
   z-index: 2; }
+
+.footer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+  .footer-btn a {
+    color: #000; }
 
 @media screen and (max-width: 1086px) {
   .work-schema__wrapper-content {
@@ -481,14 +489,17 @@ h2 {
   .footer-wrapper img {
     display: block;
     margin: 0 auto;
-    margin-top: 15px; }
-  .footer-btn {
-    display: flex;
-    justify-content: center; } }
+    margin-top: 15px; } }
 
 @media screen and (max-width: 450px) {
   .header-nav {
     flex-direction: column; }
+  .footer-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px; }
+    .footer-btn img {
+      padding: 20px 0px; }
   .phone .phone-wrapper .phone-offer .phone-offer__btn {
     display: block; }
   .phone .phone-wrapper .phone-offer .phone-offer__btn .btn-service:last-child {
