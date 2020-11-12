@@ -246,7 +246,7 @@ h2 {
   background-size: cover; }
   .phone .phone-wrapper .phone {
     position: absolute;
-    top: -49px;
+    top: -100px;
     left: -120px; }
   .phone .phone-wrapper .phone-offer {
     padding: 92px 96px 92px 478px;
@@ -264,9 +264,15 @@ h2 {
         margin-left: 24px; }
 
 .pre-footer {
-  padding-top: 160px; }
+  z-index: 2;
+  background-color: #fff;
+  position: relative;
+  padding-top: 150px; }
 
 .footer {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
   border-top: 1px solid #f6f6f6; }
   .footer .footer-wrapper {
     padding: 40px 0px 60px 0px; }

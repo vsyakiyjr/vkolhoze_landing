@@ -363,7 +363,7 @@ h2 {
 
         .phone {
             position: absolute;
-            top: -49px;
+            top: -100px;
             left: -120px;
         }
 
@@ -396,11 +396,17 @@ h2 {
 
 
 .pre-footer {
-    padding-top: 160px;
+    z-index: 2;
+    background-color: #fff;
+    position: relative;
+    padding-top: 150px;
 }
 
 
 .footer {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
     border-top: 1px solid #f6f6f6;
 
     .footer-wrapper {
