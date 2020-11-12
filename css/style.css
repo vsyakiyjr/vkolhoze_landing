@@ -508,11 +508,14 @@ h2 {
     text-align: left; }
   .phone .phone-wrapper {
     height: auto;
-    height: 800px;
+    height: 747px;
     padding: 0px 20px; }
   .phone .phone-wrapper .phone {
     position: static;
-    margin: 50px 0px 0px -150px; }
+    margin: 50px 0px 0px -111px;
+    width: 500px; }
+  .pre-footer {
+    padding-top: 40px; }
   .header-nav {
     display: block; }
   .header-nav__item img {
