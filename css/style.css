@@ -586,3 +586,12 @@ h2 {
     margin-bottom: 15px; }
   .header-offer img {
     display: none; } }
+
+.document-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 50px 0px; }
+  .document-block a:hover {
+    text-decoration: underline; }
+  .document-block a {
+    color: #143a42; }

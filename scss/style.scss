@@ -930,3 +930,16 @@ h2 {
         display: none;
     }
 }
+
+
+.document-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 50px 0px;
+    a:hover{
+        text-decoration: underline;
+    }
+    a{
+        color: #143a42;
+    }
+}
