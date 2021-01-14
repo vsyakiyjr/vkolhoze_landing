@@ -290,6 +290,7 @@ h2 {
                 font-size: 14px;
                 margin-top: 23px;
                 display: none;
+                line-height: 120%;
             }
 
             p {
@@ -443,6 +444,9 @@ h2 {
         p {
             font-family: 'Proxima Novas';
             font-weight: 400;
+            span{
+                font-weight: bold;
+            }
         }
     }
 }
@@ -942,4 +946,17 @@ h2 {
     a{
         color: #143a42;
     }
+}
+
+
+.post{
+    padding: 20px;
+    position: fixed;
+    background: #4caf50;
+    right: 15px;
+    top: 15px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    border-radius: 4px;
+    display: none;
 }

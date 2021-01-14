@@ -202,7 +202,8 @@ h2 {
       .services-wrapper__item .services-wrapper__content .hover {
         font-size: 14px;
         margin-top: 23px;
-        display: none; }
+        display: none;
+        line-height: 120%; }
       .services-wrapper__item .services-wrapper__content p {
         font-size: 16px;
         line-height: 160%;
@@ -296,6 +297,8 @@ h2 {
   .abuse .abuse-wrapper p {
     font-family: 'Proxima Novas';
     font-weight: 400; }
+    .abuse .abuse-wrapper p span {
+      font-weight: bold; }
 
 .form .container {
   position: relative; }
@@ -595,3 +598,14 @@ h2 {
     text-decoration: underline; }
   .document-block a {
     color: #143a42; }
+
+.post {
+  padding: 20px;
+  position: fixed;
+  background: #4caf50;
+  right: 15px;
+  top: 15px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  border-radius: 4px;
+  display: none; }

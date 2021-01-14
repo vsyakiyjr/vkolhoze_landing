@@ -5,6 +5,8 @@
     <title>ixandr1a</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="image/circles.png" type="image/png">
+
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -16,9 +18,9 @@
     <header style="border-bottom: 1px solid #f6f6f6;">
         <div class="container">
             <div class="header-nav">
-                <div class="header-nav__item">
+                <a href="/" class="header-nav__item">
                     <img src="image/logo.svg" alt="" class="logo">
-                </div>
+                </a>
                 <div class="header-nav__item">
                     <a class="desc"><span>Скачать презентацию</span><img src="image/Frame.svg" alt=""></a>
                     <button class="btn">Стать партнером</button>
@@ -34,9 +36,9 @@
                 <h2>Стать партнером</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum corrupti commodi veniam
                     quod eaque. </p>
-                <form class="forma">
-                    <label for=""><input type="text" name="" id="" placeholder="Имя"></label>
-                    <label for=""><input type="number" name="" id="" placeholder="Телефон"></label>
+                <form class="forma" action="send.php" method="post">
+                    <label for=""><input type="text" name="name" id="" placeholder="Имя" required></label>
+                    <label for=""><input type="number" name="phone" id="" placeholder="Телефон" required></label>
                     <div class="check">
                         <label><input class="check-box" type="checkbox"><span class="check-style"></span> 
                         </label>
@@ -48,7 +50,7 @@
                         которой я подтверждаю, в течение срока, необходимого для достижения указанных целей и 5 лет
                         после их достижения.
                     </p>
-                    <button style="display: block; margin: 0 auto;" class="btn">Стать партнером</button>
+                    <button style="display: block; margin: 0 auto;" class="btn btn-send">Стать партнером</button>
                 </form>
             </div>
         </div>
@@ -84,6 +86,9 @@
             </div>
         </div>
     </footer>
+    <p class="post">
+        
+    </p>
 
 
 
